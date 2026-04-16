@@ -6,6 +6,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <link rel="icon" href="assets/images/favicon/favicon.png" sizes="16x16" />
+    <link rel="preconnect" href="https://maps.google.com">
+    <link rel="dns-prefetch" href="https://maps.google.com">
+    <link rel="preload" as="image" href="assets/images/banner-1.png" fetchpriority="high">
     <!-- SEO -->
     <!-- HTML Meta Tags -->
     <title>ANP Privado | Luxury 3 & 4 BHK Apartments in Baner, Pune</title>
@@ -380,7 +383,7 @@
                                         <source media="(max-width: 750px)" data-srcset="assets/images/banner-1.png"
                                             srcset="assets/images/banner-1.png" />
                                         <img class="d-block w-100" data-srcset="assets/images/banner-1.png"
-                                            srcset="assets/images/banner-1.png" />
+                                            srcset="assets/images/banner-1.png" fetchpriority="high" />
                                     </picture>
                                 </div>
 
@@ -686,7 +689,7 @@
                                     style="cursor: pointer;">
 
                                     <img src="assets/images/floor-plan/MasterPlan.webp" alt="Master Plan"
-                                        class="img-fluid unit_plan_img" />
+                                        class="img-fluid unit_plan_img" loading="lazy" />
 
                                     <!-- Overlay -->
                                     <figcaption class="unit-overlay">
@@ -720,8 +723,8 @@
                                 <figure class="unit-plan-figure" data-bs-toggle="modal" data-bs-target="#enquire-modal"
                                     data-bs-whatever="Enquire Now" data-id="Floor Layout Plan" style="cursor: pointer;">
 
-                                    <img src="assets/images/floor-plan/UnitPlan.webp" alt="Floor Plan"
-                                        class="img-fluid unit_plan_img" style="filter: blur(4px);" />
+                                    <img src="assets/images/floor-plan/UnitPlan.webp" alt="Unit Plan"
+                                        class="img-fluid unit_plan_img" loading="lazy" style="filter: blur(4px);" />
 
                                     <!-- Overlay -->
                                     <figcaption class="unit-overlay">
@@ -758,53 +761,57 @@
                                 <div id="slick1">
                                     <div class="slide-item">
                                         <div class="amenity-content amenities-img-holder">
-                                            <img src="assets/images/amenities/Fitness center.png"
-                                                alt="Fitness Center" />
+                                            <img src="assets/images/amenities/Fitness center.png" alt="Fitness Center"
+                                                loading="lazy" />
                                             <p>Fitness Center</p>
                                         </div>
                                     </div>
                                     <div class="slide-item">
                                         <div class="amenity-content amenities-img-holder">
-                                            <img src="assets/images/amenities/Swimming Pool.png" alt="Swimming Pool" />
+                                            <img src="assets/images/amenities/Swimming Pool.png" alt="Swimming Pool"
+                                                loading="lazy" />
                                             <p>Swimming Pool</p>
                                         </div>
                                     </div>
                                     <div class="slide-item">
                                         <div class="amenity-content amenities-img-holder">
                                             <img src="assets/images/amenities/Jogging & Cycle Track.png"
-                                                alt="Jogging & Cycle Track" />
+                                                alt="Jogging & Cycle Track" loading="lazy" />
                                             <p>Jogging & Cycle Track</p>
                                         </div>
                                     </div>
                                     <div class="slide-item">
                                         <div class="amenity-content amenities-img-holder">
-                                            <img src="assets/images/amenities/kids play area.png"
-                                                alt="Kids Play Area" />
+                                            <img src="assets/images/amenities/kids play area.png" alt="Kids Play Area"
+                                                loading="lazy" />
                                             <p>Kids Play Area</p>
                                         </div>
                                     </div>
                                     <div class="slide-item">
                                         <div class="amenity-content amenities-img-holder">
-                                            <img src="assets/images/amenities/Banquet Hall.png" alt="Banquet Hall" />
+                                            <img src="assets/images/amenities/Banquet Hall.png" alt="Banquet Hall"
+                                                loading="lazy" />
                                             <p>Banquet Hall</p>
                                         </div>
                                     </div>
                                     <div class="slide-item">
                                         <div class="amenity-content amenities-img-holder">
-                                            <img src="assets/images/amenities/Indoor Games.png" alt="Indoor Games" />
+                                            <img src="assets/images/amenities/Indoor Games.png" alt="Indoor Games"
+                                                loading="lazy" />
                                             <p>Indoor Games</p>
                                         </div>
                                     </div>
                                     <div class="slide-item">
                                         <div class="amenity-content amenities-img-holder">
                                             <img src="assets/images/amenities/Senior Citizens Area.png"
-                                                alt="Senior Citizens area" />
+                                                alt="Senior Citizens area" loading="lazy" />
                                             <p>Senior Citizens area</p>
                                         </div>
                                     </div>
                                     <div class="slide-item">
                                         <div class="amenity-content amenities-img-holder">
-                                            <img src="assets/images/amenities/Yoga Lawn.png" alt="Yoga Lawn" />
+                                            <img src="assets/images/amenities/Yoga Lawn.png" alt="Yoga Lawn"
+                                                loading="lazy" />
                                             <p>Yoga Lawn</p>
                                         </div>
                                     </div>
@@ -835,37 +842,44 @@
                             <div class="gallery js-gallery">
                                 <div class="gallery-item">
                                     <div class="gallery-img-holder js-gallery-popup"><img
-                                            src="assets/images/gallery/gallery1.png" alt="" class="gallery-img" />
+                                            src="assets/images/gallery/gallery1.png" alt="" class="gallery-img"
+                                            loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="gallery-item">
                                     <div class="gallery-img-holder js-gallery-popup"><img
-                                            src="assets/images/gallery/gallery2.png" alt="" class="gallery-img" />
+                                            src="assets/images/gallery/gallery2.png" alt="" class="gallery-img"
+                                            loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="gallery-item">
                                     <div class="gallery-img-holder js-gallery-popup"><img
-                                            src="assets/images/gallery/gallery3.png" alt="" class="gallery-img" />
+                                            src="assets/images/gallery/gallery3.png" alt="" class="gallery-img"
+                                            loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="gallery-item">
                                     <div class="gallery-img-holder js-gallery-popup"><img
-                                            src="assets/images/gallery/gallery4.png" alt="" class="gallery-img" />
+                                            src="assets/images/gallery/gallery4.png" alt="" class="gallery-img"
+                                            loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="gallery-item">
                                     <div class="gallery-img-holder js-gallery-popup"><img
-                                            src="assets/images/gallery/gallery5.png" alt="" class="gallery-img" />
+                                            src="assets/images/gallery/gallery5.png" alt="" class="gallery-img"
+                                            loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="gallery-item">
                                     <div class="gallery-img-holder js-gallery-popup"><img
-                                            src="assets/images/gallery/gallery6.png" alt="" class="gallery-img" />
+                                            src="assets/images/gallery/gallery6.png" alt="" class="gallery-img"
+                                            loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="gallery-item">
                                     <div class="gallery-img-holder js-gallery-popup"><img
-                                            src="assets/images/gallery/gallery7.png" alt="" class="gallery-img" />
+                                            src="assets/images/gallery/gallery7.png" alt="" class="gallery-img"
+                                            loading="lazy" />
                                     </div>
                                 </div>
 
@@ -879,8 +893,8 @@
                         <h1 class="section-title">ANP Privado - Strategically Located for Maximum Connectivity</h1>
                         <div class="row mt-2">
                             <div class="col-xl-12">
-                                <iframe frameborder="0" allowfullscreen="" sandbox="allow-scripts allow-same-origin"
-                                    title="Google map"
+                                <iframe loading="lazy" frameborder="0" allowfullscreen=""
+                                    sandbox="allow-scripts allow-same-origin" title="Google map"
                                     src="https://maps.google.com/maps?q=ANP%20Privado,%20Baner,%20Pune&t=&z=14&ie=UTF8&iwloc=&output=embed"
                                     width="100%" height="300"
                                     style="border: 1px solid #333; padding: 2px; background: #fff;"></iframe>
